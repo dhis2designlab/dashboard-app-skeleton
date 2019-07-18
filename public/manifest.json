@@ -1,0 +1,14 @@
+{
+    "name": "app-name",
+    "short_name": "app-name",
+    "description": "Do something cool.",
+    "icons": {
+        "48": "favicon-48x48.png"
+    },
+    "developer": {
+        "name": "Terje Uglebakken"
+    },
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
