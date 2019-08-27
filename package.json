@@ -25,12 +25,6 @@
             }
         }
     },
-    "dependencies": {
-        "@dhis2/ui-core": "^3.6.3",
-        "react": "^16.8.6",
-        "react-dom": "^16.8.6",
-        "typeface-roboto": "^0.0.54"
-    },
     "scripts": {
         "start": "react-scripts start",
         "prebuild": "rimraf build",
@@ -39,10 +33,17 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
+    "dependencies": {
+        "@dhis2/ui-core": "^3.9.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "typeface-roboto": "^0.0.54"
+    },
     "devDependencies": {
+        "@dhis2/cli-style": "^4.1.1",
         "bestzip": "^2.1.4",
         "d2-manifest": "^1.0.0",
-        "react-scripts": "3.0.1",
+        "react-scripts": "^3.1.1",
         "rimraf": "^2.6.3"
     }
 }
