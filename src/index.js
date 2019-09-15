@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import * as serviceWorker from './serviceWorker'
 import { App } from './components/App'
 
 /**
@@ -27,13 +26,11 @@ const productionRender = async () => {
     }
 }
 
-const render = baseUrl => {
+const render = baseUrl =>
     ReactDOM.render(
         <App baseUrl={baseUrl} apiVersion={apiVersion} />,
         rootElement
     )
-    serviceWorker.unregister()
-}
 
 if (process.env.NODE_ENV === 'production') productionRender()
 else render(developmentServer)
