@@ -9,7 +9,6 @@ yarn install
 ```
 
 ## Develop
-You need to log in to whatever `developmentServer` is set to in [src/index.js](./src/index.js#L6).
 ```bash
 npm start
 # or
