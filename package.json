@@ -34,16 +34,17 @@
         "eject": "react-scripts eject"
     },
     "dependencies": {
-        "@dhis2/ui-core": "^3.9.0",
-        "react": "^16.8.6",
-        "react-dom": "^16.8.6",
-        "typeface-roboto": "^0.0.54"
+        "@dhis2/app-runtime": "^2.0.1",
+        "@dhis2/ui-core": "^3.11.0",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "typeface-roboto": "^0.0.75"
     },
     "devDependencies": {
         "@dhis2/cli-style": "^4.1.1",
         "bestzip": "^2.1.4",
         "d2-manifest": "^1.0.0",
-        "react-scripts": "^3.1.1",
-        "rimraf": "^2.6.3"
+        "react-scripts": "^3.1.2",
+        "rimraf": "^3.0.0"
     }
 }
